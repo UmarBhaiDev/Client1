@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Works Under the Supervision of an Office Administrator</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #51e936; /* Light green */
+            color: #ffffff; /* White text */
+        }
+        header {
+            background: linear-gradient(90deg, #28a745, #218838); /* Darker green gradient */
+        }
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .section-heading {
+            font-size: 1.8rem;
+            font-weight: bold;
+            border-bottom: 2px solid #09ff00;
+            display: inline-block;
+            margin-bottom: 20px;
+        }
+        .icon-box {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #28a745; /* Dark green border */
+            border-radius: 8px;
+            transition: all 0.3s ease-in-out;
+            background: #28a745; /* Light green background for cards */
+            color: #ffffff; /* White text for cards */
+        }
+        .icon-box:hover {
+            background-color: #218838; /* Slightly darker green on hover */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transform: scale(1.05);
+        }
+        .icon {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #ffffff; /* White icons */
+        }
+        ul.list-group {
+            background: transparent;
+        }
+        ul.list-group .list-group-item {
+            background: #28a745; /* Light green */
+            border: none;
+            color: #ffffff; /* White text */
+        }
+        ul.list-group .list-group-item:not(:last-child) {
+            border-bottom: 1px solid #218838; /* Dark green border between items */
+        }
+         /* Sidebar */
+    .sidebar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 60px;
+      height: 160vh;
+      background: #33DB4A;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+      z-index: 1000;
+    }
+
+    .sidebar img {
+      width: 50px;
+      height: 30px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+    }
+
+    .sidebar li {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60px;
+      cursor: pointer;
+    }
+
+    .sidebar i {
+      color: #fff;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .sidebar i:hover {
+      color: #f0d124;
+    }
+
+    .sidebar .separator {
+      width: 80%;
+      height: 1px;
+      background: #555;
+      margin: 20px 0;
+    }
+
+    .sidebar .logout {
+      margin-top: auto;
+      margin-bottom: 20px;
+    }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div class="sidebar">
+        <a href="index.html"><img src="logo-removebg-preview.png" alt="Logo"></a>
+        <ul>
+          <li ><a href="clientpage1.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+          <li > <a href="index.html"><i class="fas fa-search" title="Search"></i> </a></li>
+          <li> <a href="clientpage2.html"> <i class="fa-solid fa-share-from-square"></i></a></li>
+           <li> <a href="clientpage3.html"><i class="fa-solid fa-info"></i></a></li>
+        </ul>
+        <div class="separator"></div>
+              <li><a href="../signin.html"><i class="fa-solid fa-right-from-bracket" title="Log out"></i></a></li>
+      </div>
+    <header class="text-white text-center py-4">
+        <div class="container">
+            <h1>Works Under the Supervision of an Office Administrator</h1>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <!-- Introduction -->
+        <section class="text-center mb-5">
+            <p class="lead">
+                Explore the roles, skills, and services provided by professionals working under the guidance of an office administrator. These individuals ensure smooth and efficient office operations.
+            </p>
+        </section>
+
+        <!-- Responsibilities -->
+        <section class="mb-5">
+            <h2 class="section-heading">Responsibilities</h2>
+            <ul class="list-group shadow-sm">
+                <li class="list-group-item">Managing day-to-day office tasks like scheduling, communication, and paperwork.</li>
+                <li class="list-group-item">Assisting in maintaining office systems and procedures.</li>
+                <li class="list-group-item">Handling correspondence, filing, and organizing documents.</li>
+                <li class="list-group-item">Preparing reports or presentations as needed.</li>
+            </ul>
+        </section>
+
+        <!-- Services -->
+        <section class="my-5">
+            <h2 class="section-heading">Services Provided</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="icon-box shadow-sm">
+                        <div class="icon"><i class="fa-solid fa-gear"></i></div>
+                        <h5>Administrative Support</h5>
+                        <p>Assisting senior staff with day-to-day administrative responsibilities.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box shadow-sm">
+                        <div class="icon"><i class="fa-solid fa-user-group"></i></div>
+                        <h5>Customer Interaction</h5>
+                        <p>Handling inquiries via phone, email, and face-to-face communication.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icon-box shadow-sm">
+                        <div class="icon"><i class="fa-solid fa-calendar-day"></i></div>
+                        <h5>Scheduling Assistance</h5>
+                        <p>Coordinating appointments, meetings, and travel plans.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="mb-5">
+            <h2 class="section-heading">Skills & Qualities</h2>
+            <p>
+                Professionals in this role possess excellent organizational and multitasking skills, proficiency in office tools, and effective communication. They also exhibit adaptability and problem-solving capabilities.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+   
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
